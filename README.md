@@ -1,6 +1,7 @@
  # Resume builder application
 This application generates a resume for the user taking their information for certain headings. <br>
 Works on a base format (pre loaded) to allow users to add the needed sub headings to their Resume <br>
+**!!This is only the landing page of such an application**
 
 **UI creation**
  <hr>
