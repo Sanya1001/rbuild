@@ -223,3 +223,8 @@ nav.dark:hover{
     text-align: center;
     margin: auto;
 }
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
