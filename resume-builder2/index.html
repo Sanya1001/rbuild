@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>RESUME BUILDER</title>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-item" id="logo">R Build</div>
+        <div class="nav-item"><button id="theme">Theme</button></div>
+    </nav>
+    <div id="body">
+        <form class="form-main">
+            <label for="name">Name</label> <br>
+            <input type="text" name='name' required> <br>
+            <label for="address">Address</label> <br>
+            <textarea name="address" cols="30" rows="10"></textarea> <br>
+            <label for="phone">Phone number</label> <br>
+            <input type="text"> <br>
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" required> <br>
+            <label for="major">Field of interest or Major</label> <br>
+            <input type="text" name="major" required> <br>
+            <label for="skills">Skills</label> 
+            <button id="add-skill" type="button">+</button><br>
+            <div id="skill-input">
+                <input type="text" name="skills">
+                <select name="skill-type" id="skill-type">
+                    <option value="technical">Technical</option>
+                    <option value="interpersonal">Interpersonal</option>
+                    <option value="artistic">Artistic</option>
+                    <option value="learning">Learning/ ability based</option>
+                    <option value="other">Other</option>
+                </select> <br>
+            </div>
+            <label for="experience">Experience</label> 
+            <button id="add-exp" type="button">+</button> <br>
+            <div id="exp-input"> 
+                <input type="text" name="experience"> <br>
+                <label for="exp-desc">Description</label> <br>
+                <textarea name="exp-desc" cols="30" rows="10"></textarea> <br>
+                <label for="org">Organization</label> <br>
+                <input type="text" required name="org"> <br>
+            </div>
+        </form>
+        <button type="submit">Generate</button>
+    </div>
+</body>
+</html>
