@@ -14,3 +14,6 @@ Works on a base format (pre loaded) to allow users to add the needed sub heading
 - Changing themes ?<br><br>
 
 > Other additions <br>
+
+### New ➜ Generate Resume
+A preview (unstyled, only functionality) has been added. Work in progress    
