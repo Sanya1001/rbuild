@@ -16,4 +16,4 @@ Works on a base format (pre loaded) to allow users to add the needed sub heading
 > Other additions <br>
 
 ### New ➜ Generate Resume
-A preview (unstyled, only functionality) has been added. Work in progress    
+A preview (only form, generate option does not work yet) has been added. Work in progress    
