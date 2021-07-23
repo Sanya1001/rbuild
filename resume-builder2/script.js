@@ -33,12 +33,15 @@ addSkill.addEventListener('click', () => {
     option4.innerText = 'Learning/ ability based'
     option5.setAttribute('value', 'other')
     option5.innerText = 'Other'
+    var space = document.createElement('span')
+    space.innerHTML = '&nbsp;'
     select.appendChild(option1)
     select.appendChild(option2)
     select.appendChild(option3)
     select.appendChild(option4)
     select.appendChild(option5)
     skill.appendChild(input)
+    skill.appendChild(space)
     skill.appendChild(select)
     skill.appendChild(document.createElement('br'))
 
@@ -49,6 +52,10 @@ addExp.addEventListener('click', () => {
     var label = document.createElement('label')
     label.setAttribute('for', 'experience')
     label.innerText = 'Experience'
+    // var addBtn = document.createElement('button')
+    // addBtn.setAttribute('id', 'add-exp')
+    // addBtn.setAttribute('type', 'button')
+    // addBtn.innerText = '+'
     var input = document.createElement('input')
     input.setAttribute('type', 'text')
     input.setAttribute('name', 'experience')
@@ -67,6 +74,7 @@ addExp.addEventListener('click', () => {
     input2.setAttribute('name', 'org')
     input2.setAttribute('required', 'true')
     exp.appendChild(label)
+    // exp.appendChild(addBtn)
     exp.appendChild(document.createElement('br'))
     exp.appendChild(input)
     exp.appendChild(document.createElement('br'))
@@ -78,4 +86,5 @@ addExp.addEventListener('click', () => {
     exp.appendChild(document.createElement('br'))
     exp.appendChild(input2)
     exp.appendChild(document.createElement('br'))
+    label.scrollIntoView()
 })

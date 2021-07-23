@@ -68,6 +68,77 @@ nav.dark:hover{
     margin-right: 1rem;
 }
 
-button{
+#body button{
     cursor: pointer;
+    padding: 0.2rem auto;
+    margin: 0.5rem;
+}
+
+#body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#form-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 70%;
+    height: auto;
+}
+
+label{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+textarea{
+    min-width: 60vmin;
+    height: auto;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: inherit;
+}
+
+input{
+    padding: 0.1rem;
+    min-width: 40vmin;
+    height: auto;
+    text-align: center;
+    font-family: inherit;
+}
+
+#skill-type{
+    padding: 0.1rem;
+    text-align: center;
+    font-family: inherit;
+}
+
+form{
+    padding: 2rem 3rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+form:hover{
+    background-color: #476670; 
+    color: azure;
+}
+
+.dark form:hover{
+    background-color: #e8f6fa;
+    color: initial;
+}
+
+@media only screen and (max-width: 600px){
+    form{
+        padding: 0.5rem 0.8rem;
+    }
 }
