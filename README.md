@@ -11,9 +11,13 @@ Works on a base format (pre loaded) to allow users to add the needed sub heading
 - Availabiity of different file format extensions ?<br>
 - Availabiity of user customized sub headings<br>
 - Landing page <br>
-- Changing themes ?<br><br>
+- Changing themes ?<br>
+- Filtering job search in 'Find'    
 
 > Other additions <br>
 
 ### New ➜ Generate Resume
 A preview (only form, generate option does not work yet) has been added. Work in progress    
+
+### Find ➜ Find Jobs
+A preview (unstyled but links are active) has been added. Work in progress    
